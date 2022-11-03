@@ -111,7 +111,7 @@
     transition: .5s;
 }
 #inicio .contenido .Presentacion a:hover {
-    background-color: rgb(22, 124, 133, 0.8);
+    background-color: rgba(209, 112, 248, 0.8);
 }
 #icono-nav {
     color: #fff;
@@ -152,7 +152,7 @@
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
-    text-decoration-color: #87dbee;
+    text-decoration-color: #3b73eb;
     text-decoration-thickness: 5px;
 }
 #sobremi .sobremi h2{
@@ -162,7 +162,7 @@
     letter-spacing: 2px;
 }
 #sobremi .sobremi h2 span{
-    color: #a52a2a;
+    color: #3b73eb;
 }
 #sobremi .sobremi h3{
     font-size: 18px;
@@ -180,7 +180,7 @@
 #sobremi .sobremi a{
     display: inline-block;
     text-decoration: none;
-    color: #87dbee;
+    color: #3b73eb;
     border-radius: 30px;
     padding: 10px 20px;
     border: 1px solid #000;
@@ -188,7 +188,7 @@
     transition: .5s;
 }
 #sobremi .sobremi a:hover{
-    background-color: aqua;
+    background-color: rgba(209, 112, 248, 0.8);
     color: #fff;
 }
 #skills {
@@ -206,7 +206,7 @@
     text-transform: uppercase;
     color: #ffffff;
     text-decoration: underline;
-    text-decoration-color: #a52a2a;
+    text-decoration-color: #3b73eb;
     text-decoration-thickness: 5px;
 }
 #skills .fila{
@@ -235,7 +235,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #a52a2a;
+    background-color: #3b73eb;
     padding: 20px;
     margin-bottom: 25px;
 }
@@ -257,7 +257,7 @@
     text-transform: uppercase;
     color: #ffffff;
     text-decoration: underline;
-    text-decoration-color: #a52a2a;
+    text-decoration-color: #3b73eb;
     text-decoration-thickness: 5px;
 }
 #hobbies .fila{
@@ -285,7 +285,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #a52a2a;
+    background-color: #3b73eb;
     padding: 20px;
     margin-bottom: 25px;
 }
@@ -297,7 +297,7 @@
 #formacion .titulo-seccion{
     font-size: 22px;
     text-transform: uppercase;
-    color: #a52a2a;
+    color: #3b73eb;
     text-decoration: underline;
     text-decoration-color: #010101;
     text-decoration-thickness: 5px;
@@ -361,7 +361,7 @@
     color: #000000;
     text-shadow: 2px 2px #dddbdb;
     text-decoration: underline;
-    text-decoration-color: #940a0a;
+    text-decoration-color: #3b73eb;
     text-decoration-thickness: 5px;
 }
 #proyectos .fila {
@@ -413,7 +413,7 @@
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #a52a2a;
+    color: #3b73eb;
     text-decoration: underline;
     text-decoration-color: #000000;
     text-decoration-thickness: .5px;
@@ -452,7 +452,7 @@
     font-weight: bold;
 }
 #contacto .btn-enviar:hover {
-    background-color: #3b73eb;
+    background-color: rgba(209, 112, 248, 0.8);
     color: #fff;
 }
 footer {
