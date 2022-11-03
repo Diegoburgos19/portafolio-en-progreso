@@ -118,7 +118,8 @@
     display: none;
 }
 #sobremi{
-    max-width: 1100px;
+    background-color: #efefef;
+    max-width: 11100px;
     margin: auto;
     padding: 100px 15px;
     color: #111135;
@@ -139,7 +140,7 @@
 
 #sobremi .contenedor-foto img{
     padding: 20px;
-    width: 130%;
+    width: 110%;
     border-radius: 20px;
     background-color: #a7d8e2; 
 }
@@ -191,14 +192,19 @@
     color: #fff;
 }
 #skills {
-    padding: 100px 15px;
+    background: linear-gradient(#242727cc,rgba(21, 20, 20, 0.8)), url("imagenes/fondohobbies.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
     text-align: center;
-    background-color: #efefef;
+
 }
 #skills .titulo-seccion{
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #ffffff;
     text-decoration: underline;
     text-decoration-color: #a52a2a;
     text-decoration-thickness: 5px;
@@ -208,17 +214,20 @@
     justify-content: space-between;
     max-width:1100px;
     margin: 30px auto;
+    color: rgb(242, 236, 236);
 }
 #skills .fila .skills{
     max-width: 350px;
-    background-color: #ffffff;
+    background-color: none;
     padding: 30px;
     margin: 0 5px;
     border-right: 5px;
     transition: .5s;
+    box-shadow: 5px 5px 10px #ffffff, -5px -5px 10px #ffffff;
 }
+
 #skills .fila .skills:hover{
-    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+    /*box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;*/
 
 }
 #skills .fila .skills .icono {
@@ -226,7 +235,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #87dbee;
+    background-color: #a52a2a;
     padding: 20px;
     margin-bottom: 25px;
 }
@@ -276,7 +285,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #87dbee;
+    background-color: #a52a2a;
     padding: 20px;
     margin-bottom: 25px;
 }
@@ -288,9 +297,9 @@
 #formacion .titulo-seccion{
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #a52a2a;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #010101;
     text-decoration-thickness: 5px;
 }
 #formacion .fila{
@@ -339,7 +348,8 @@
     line-height: 22px;
 }
 #proyectos {
-    max-width: 1100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./imagenes/proyectos.jpg);
+    max-width: 11100px;
     padding: 100px 0;
     margin: auto;
 }
@@ -347,9 +357,9 @@
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #ffffff;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #ffffff;
     text-decoration-thickness: 5px;
 }
 #proyectos .fila {
@@ -378,7 +388,7 @@
     position: absolute;
     left: 0;
     background-color: rgba(0, 0, 0, .8);
-    color: #3b73eb;
+    color: #e4e5e7;
     width: 100%;
     padding: 10px;
     opacity: 0;
@@ -391,19 +401,19 @@
 }
 #contacto {
     padding: 100px 15px;
-    background: linear-gradient(rgba(47, 26, 26, 0.7), rgba(50, 28, 28, 0.7)), url(./imagenes/contacto.jpg);
-    background-size: cover;
+    background-color: #efefef;
+    /*background-size: cover;
     background-position: center center;
-    height: 80vh;
+    height: 80vh;*/
 }
 #contacto .titulo-seccion{
     margin-bottom: 20px;
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #a52a2a;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #000000;
     text-decoration-thickness: .5px;
 }
 #contacto .contenedor-form {
