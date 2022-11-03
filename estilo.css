@@ -384,7 +384,7 @@
     transition: .5s;
 }
 #proyectos .fila .proyectos:hover img{
-    filter: grayscale(0.5);
+    filter: grayscale(0);
 }
 #proyectos .fila .proyectos .info{
     position: absolute;
