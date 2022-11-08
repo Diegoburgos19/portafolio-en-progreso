@@ -119,7 +119,7 @@
 }
 #sobremi{
     background-color: #efefef;
-    max-width: 11100px;
+    max-width: 100%;
     margin: auto;
     padding: 100px 15px;
     color: #111135;
@@ -350,7 +350,7 @@
 #proyectos {
     background: url(./imagenes/proyectos.jpg);
     background-position: center;
-    max-width: 11100px;
+    max-width: 100%;
     padding: 100px 0;
     margin: auto;
 }
